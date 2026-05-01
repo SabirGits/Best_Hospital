@@ -843,7 +843,7 @@ footer ul li a i { font-size: 11px; color: var(--teal); flex-shrink: 0; }
 .animate-left { animation: fadeInLeft 0.7s ease forwards; }
 .animate-right { animation: fadeInRight 0.7s ease forwards; }
 .reveal { opacity: 0; transform: translateY(30px); transition: opacity 0.7s ease, transform 0.7s ease; }
-.reveal.visible { opacity: 1; transform: translateY(0); }
+.reveal.visible {opacity: 1;transform: translateY(0); width: 340px; margin: auto; margin-top: 50px; }
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 991px) {
