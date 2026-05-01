@@ -905,3 +905,35 @@ footer ul li a i { font-size: 11px; color: var(--teal); flex-shrink: 0; }
   z-index: 999;
 }
 .whatsapp-float:hover { transform: scale(1.12); color: #fff; }
+/* ===== LOGO GRID FIX ===== */
+
+.logo-grid {
+  align-items: center;
+}
+
+.logo-img {
+  width: 180px;   /* LOGO SIZE BADA */
+  height: 180px;
+  object-fit: contain;
+  transition: 0.3s ease;
+}
+
+.logo-img:hover {
+  transform: scale(1.1);
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .logo-img {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .logo-img {
+    width: 110px;
+    height: 110px;
+  }
+}
